@@ -1,0 +1,655 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  /* Warna hitam untuk teks */
+  background-color: #fff;
+  /* Warna putih untuk latar belakang */
+}
+
+.navbar {
+  background-color: #000;
+  /* Hitam untuk latar belakang navbar */
+  padding: 14px 154px;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #ffffff;
+  /* Warna putih untuk teks navbar */
+}
+
+.navbar .nav-link {
+  margin-right: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  height: 70vh;
+  background-color: #051923;
+  /* Warna hero section */
+  color: #ececec;
+  /* Warna teks di hero section */
+  padding: 154px;
+  border-radius: 0 0 20px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  /* Ukuran teks besar untuk hero */
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  /* Ukuran subteks */
+  margin-top: 20px;
+}
+
+.hero-section .btn-primary {
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+/* Search Form */
+.search-form {
+  position: relative;
+}
+
+.search-input {
+  border-radius: 50px;
+  padding-left: 45px;
+  font-size: 1rem;
+  width: 300px;
+  /* Panjang lebih besar */
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 1
+}
+
+/* Section 2: Reasons Section */
+.reasons-section {
+  width: 100%;
+  padding: 72px 154px 72px 154px;
+  color: #000;
+}
+
+.reasons-section h2 {
+  font-size: 2.5rem;
+  color: #000;
+  /* Warna hitam untuk heading */
+}
+
+.reasons-section p {
+  font-size: 1.25rem;
+  color: #333;
+  /* Warna sedikit lebih gelap untuk subteks */
+}
+
+.reasons-section ul {
+  font-size: 1.25rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.reasons-section li {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #000;
+}
+
+.reasons-section .fa-check-circle {
+  color: #051923;
+  /* Ikon checklist dengan warna sesuai tema */
+  font-size: 1.5rem;
+}
+
+/* Section 3: Testimonials Section */
+.testimonials-section {
+  width: 100%;
+  padding: 54px 154px 72px 154px;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.testimonials-section .card {
+  border-radius: 15px;
+  /* Membuat card menjadi rounded */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* Efek shadow */
+  border: none;
+  transition: transform 0.3s ease;
+  /* Menambahkan efek interaksi */
+}
+
+.testimonials-section .card:hover {
+  transform: translateY(-5px);
+  /* Efek hover untuk menambahkan interaktivitas */
+}
+
+.testimonials-section .card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.testimonials-section .card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.testimonials-section .card-img-top {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Section 4: Upgrade Section */
+.upgrade-section {
+  width: 100%;
+  padding: 54px 154px 154px 154px;
+  background-color: #fff;
+  /* Warna putih untuk background */
+  color: #000;
+  /* Warna hitam untuk teks */
+}
+
+.upgrade-section h2 {
+  font-size: 3rem;
+  /* Membuat teks lebih besar */
+  margin-bottom: 30px;
+}
+
+.upgrade-section .email-form {
+  width: 100%;
+  /* Lebar penuh untuk form */
+  max-width: 500px;
+  /* Maksimal lebar form */
+  display: flex;
+  /* Menggunakan flexbox untuk layout form */
+  align-items: center;
+}
+
+.upgrade-section .email-input {
+  flex-grow: 1;
+  /* Input mengambil ruang maksimal */
+  border-radius: 50px;
+  /* Rounded input */
+  padding: 12px 20px;
+  /* Padding yang memadai untuk input */
+  font-size: 1rem;
+  /* Ukuran font yang serasi */
+}
+
+.upgrade-section .email-btn {
+  border-radius: 50px;
+  /* Rounded button */
+  padding: 12px 24px;
+  /* Padding yang cukup untuk tombol */
+  background-color: #007bff;
+  /* Warna biru Bootstrap primary */
+  color: #ffffff;
+  /* Warna teks putih */
+  font-size: 1rem;
+  /* Ukuran font untuk teks tombol */
+  min-width: 120px;
+  /* Lebar minimal untuk memastikan teks muat */
+  border: none;
+  /* Menghilangkan border bawaan */
+}
+
+.upgrade-section p {
+  font-size: 1.25rem;
+  /* Ukuran teks penjelas */
+}
+
+/* Footer Section */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 58px 154px;
+  font-size: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Kolom 1: Sosial Media */
+.footer .col-md-2:first-child h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+.footer .social-icons {
+  padding-top: 24px;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  font-size: 1.5rem !important;
+  /* Menggunakan ukuran yang lebih realistis */
+  margin-right: 10px;
+}
+
+.footer .social-icons a .fa {
+  margin-right: 0;
+}
+
+/* Adjustments for all subsequent columns */
+.footer .col-md-2 h5,
+.footer .col-md-3 h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ccc;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+.footer .col-md-2 a,
+.footer .col-md-3 a {
+  color: #ccc;
+  font-size: 0.85rem;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footer .col-md-2 ul,
+.footer .col-md-3 ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.footer-love {
+  text-align: center;
+  /* Pusatkan teks */
+  color: #bdbdbd;
+  /* Warna teks putih */
+  font-size: 0.7rem;
+  /* Ukuran font */
+  padding: 14px 0 0 0;
+  /* Padding atas dan bawah untuk spacing */
+  font-weight: 300;
+  /* Berat font normal */
+}
+
+.footer-love .fa-heart {
+  color: #ff2348;
+}
+
+/* end style index.php */
+
+/* start style about.php */
+/* Adjusting images in the about page */
+.about-image {
+  height: 360px;
+  /* Height set to 240px */
+  width: 420px;
+  /* Width set to 420px */
+  object-fit: cover;
+  /* Maintain the aspect ratio */
+  border-radius: 8px;
+  /* 8px solid border */
+}
+
+/* Ensuring the content sections have consistent padding */
+#about-intro-section,
+#about-creative-section,
+#about-executive-section {
+  padding: 48px 154px;
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+
+  #about-intro-section,
+  #about-creative-section,
+  #about-executive-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-image {
+    width: 100%;
+    /* Adjust width on smaller screens */
+    height: auto;
+    /* Auto height to maintain aspect ratio */
+    border-width: 4px;
+    /* Thinner border on smaller screens */
+  }
+}
+
+#about-intro-section .row,
+#about-creative-section .row {
+  margin-top: 20px;
+  /* Top margin for additional spacing */
+  margin-bottom: 20px;
+  /* Bottom margin for additional spacing */
+}
+
+.about-image {
+  margin-bottom: 15px;
+  /* Additional bottom margin for images */
+}
+
+
+#about-creative-section .btn-discuss {
+  display: block;
+  /* Make the button block level for full width */
+  width: 80%;
+  /* Set width to full container width */
+  background-color: transparent;
+  /* Clear background */
+  border: 2px solid #007bff;
+  /* Blue outline */
+  color: #007bff;
+  /* Blue text to match the outline */
+  padding: 10px 20px;
+  /* Adequate padding */
+  font-size: 18px;
+  /* Specified font size */
+  font-weight: 500;
+  /* Medium font weight */
+  border-radius: 8px;
+  /* Rounded corners as specified */
+  text-align: center;
+  /* Center the text inside the button */
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+}
+
+#about-creative-section .btn-discuss:hover {
+  background-color: #007bff;
+  /* Blue background on hover */
+  color: #ffffff;
+  /* White text on hover */
+  border-color: #0056b3;
+  /* Slightly darker blue border on hover */
+}
+
+#about-executive-section .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  /* Rounded corners */
+}
+
+.user-card {
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* Shadow for depth */
+  border: none;
+  /* No border */
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  /* Lift card on hover */
+}
+
+.card-img-top {
+  border-radius: 50%;
+  /* Circle image */
+}
+
+.card-body {
+  padding: 20px;
+  /* Padding inside card */
+}
+
+.social-icons a {
+  color: #007bff;
+  /* Blue icons */
+  font-size: 1.2rem;
+  /* Larger icon size */
+}
+
+.card-title {
+  margin-top: 10px;
+  /* Space between image and name */
+  font-weight: bold;
+  /* Bold text for name */
+}
+
+.card-text {
+  color: #666;
+  /* Gray text for description */
+  font-size: 0.9rem;
+  /* Smaller text size for description */
+}
+
+/* end style about.php */
+
+/* start style login.php */
+.login-body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  /* Ensure full height */
+  margin: 0;
+}
+
+.login-bg {
+  background: url('https://images.unsplash.com/photo-1715137403813-69f3fd1d6b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+  background-size: cover;
+  height: 97%;
+  /* Sesuaikan ini sesuai dengan kebutuhan layout */
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* Memastikan padding termasuk dalam height dan width yang ditetapkan */
+}
+
+/* Pastikan kontainer row menggunakan full height dan center alignment */
+.container-fluid.h-100 {
+  display: flex;
+  align-items: center;
+  /* Vertical center alignment */
+  justify-content: center;
+  /* Horizontal center alignment */
+  height: 100vh;
+  /* Full viewport height */
+}
+
+.row.h-100 {
+  width: 100%;
+  /* Full container width */
+}
+
+
+.login-form {
+  width: 100%;
+  /* Full width of the column */
+  max-width: 420px;
+  /* Maximum width */
+  padding: 40px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control-login {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* Spacing between inputs */
+}
+
+.btn-primary-login {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  /* Full width button */
+}
+
+.hr-or {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hr-or::before,
+.hr-or::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.hr-or span {
+  margin: 0 10px;
+  background: #fff;
+  padding: 0 10px;
+}
+
+.login-form .login-heading {
+  font-size: 24px;
+  /* Adjusted size for visibility */
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* Space below heading */
+  text-align: center;
+}
+
+.login-form .login-subheading {
+  font-size: 8px;
+  font-weight: normal;
+  text-align: center;
+  color: #666;
+  /* Dark grey for readability */
+  margin-bottom: 15px;
+  /* Space below subheading */
+}
+
+.login-form .form-label {
+  font-size: 10px;
+  font-weight: medium;
+  color: #333;
+  /* Medium weight for labels */
+}
+
+.login-form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 10px;
+  /* Smaller font size for form inputs */
+  margin-bottom: 10px;
+  /* Adjusted space for aesthetics */
+}
+
+.login-form .login-divider {
+  border-top: 1px solid #ccc;
+  /* Thin grey line */
+}
+
+.login-form .account-setup {
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+  /* Space above account setup text */
+  color: #333;
+}
+
+.login-form .signup-link {
+  text-decoration: underline;
+  color: #007bff;
+  /* Link color */
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  padding: 20px 0;
+  color: #333;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+/* end style login.php */
+
+/* start style user/index.php */
+
+/* Dashboard Style */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+.bg-dark {
+  background-color: #333 !important;
+}
+
+.nav-link {
+  color: #fff !important; /* Ensure white text */
+}
+
+.user-info {
+  position: absolute;
+  bottom: 20px; /* Position user info at the bottom of the nav column */
+  width: 100%; /* Full width to align with navigation width */
+  text-align: center; /* Center-align the user info text and image */
+}
+
+.nav-link:hover {
+  background-color: #555; /* Slight highlight on hover */
+}
+
+.activity-info p {
+  font-size: 16px;
+  color: #333;
+}
+
+.btn-outline-dark {
+  border-color: #333;
+  color: #333;
+}
+
+.btn-outline-dark:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+/* end style user/index.php */

@@ -1,0 +1,334 @@
+/* User Dashboard Styles */
+.user-nav {
+    background-color: #000;
+    /* Latar belakang hitam untuk navbar */
+    color: hsl(0, 0%, 100%);
+    /* Teks berwarna putih */
+    width: 270px;
+    /* Lebar tetap untuk navbar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* Full height */
+}
+
+.user-nav h2 {
+    margin-bottom: 1.5rem;
+    /* Space below the main title */
+    font-size: 24px;
+    /* Large size for visibility */
+    font-weight: bold;
+    /* Bold font weight */
+}
+
+.user-nav h3 {
+    font-size: 18px;
+    /* Smaller size for user name */
+    font-weight: 500;
+    /* Medium font weight for a balanced look */
+    margin-bottom: 0.5rem;
+    /* Small margin for spacing */
+}
+
+.user-nav .user-email {
+    font-size: 14px;
+    /* Smaller font size for email */
+    color: #ccc;
+    /* Light grey color for less emphasis */
+    margin-bottom: 2rem;
+    /* More space below the email */
+}
+
+.nav-item {
+    width: 100%;
+    /* Full width of the sidebar */
+    margin-bottom: 1rem;
+    /* Space between navigation items */
+}
+
+.nav-link {
+    color: #ccc;
+    /* Light grey color for links */
+    font-weight: 500;
+    /* Medium font weight */
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    /* Adequate padding for clickability */
+}
+
+.nav-link i {
+    margin-right: 10px;
+    /* Space between icon and text */
+    font-size: 16px;
+    /* Appropriate size for icons */
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    background-color: #555;
+    /* Darker background on hover for contrast */
+    color: #fff;
+    /* Keep text white on hover */
+}
+
+.user-nav img {
+    width: 80px;
+    /* Diameter for profile picture */
+    height: 80px;
+    /* Ensure the image is a circle */
+    border-radius: 50%;
+    /* Circle shape */
+    margin-bottom: 1rem;
+    /* Space below the image */
+}
+
+.btn-edit-profile {
+    width: 80%;
+    /* Adjust width */
+    padding: 8px 16px;
+    /* Adjust padding */
+    font-size: 14px;
+    /* Smaller font size */
+    color: #fff;
+    /* White text */
+    background-color: #007bff;
+    /* Blue background */
+    border-radius: 50px;
+    /* Rounded corners */
+    margin-bottom: 20px;
+    /* Space below the button */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-edit-profile:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+.btn-logout {
+    width: 70%;
+    /* Even smaller width for logout */
+    padding: 8px 16px;
+    /* Smaller padding */
+    font-size: 14px;
+    /* Smaller font size */
+    color: #ccc;
+    /* Light grey text */
+    background-color: transparent;
+    /* Transparent background */
+    border: 2px solid #555;
+    /* Grey border */
+    border-radius: 50px;
+    /* Rounded corners */
+    margin-top: auto;
+    /* Auto margin for alignment at the bottom */
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-logout:hover {
+    color: #fff;
+    /* White text on hover */
+    background-color: #333;
+    /* Darker background on hover */
+    border-color: #222;
+    /* Darker border on hover */
+}
+
+.user-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.user-nav img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: medium;
+    margin-bottom: 5px;
+}
+
+.user-email {
+    font-size: 14px;
+    font-weight: light;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.btn-edit-profile {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    width: 100%;
+    /* Full width */
+    text-align: center;
+    /* Center text */
+    margin-bottom: 1rem;
+    /* Space below the button */
+    cursor: pointer;
+}
+
+.profile-details {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    color: #ccc;
+}
+
+.profile-details h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btn-logout {
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px 20px;
+    border: 1px solid #222;
+    /* Outline */
+    font-size: 14px;
+    margin-top: auto;
+    /* Menempatkan di bagian bawah */
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.user-tag {
+    display: block;
+    background-color: #f0f0f0;
+    /* Light grey background */
+    color: #000;
+    /* Black text color */
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 10px;
+    /* Ukuran font 10px */
+}
+
+.user-tags {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    /* Font size for the text */
+}
+
+.user-tags div {
+    text-align: center;
+    /* Center align the content */
+    margin-left: 20px;
+}
+
+.user-tags p {
+    font-size: 0.8rem;
+    /* Smaller font size for the numbers */
+    margin: 0;
+    /* Remove margin to fit in one line */
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: start; /* align tabs to the left */
+    align-items: center; /* vertically align the text within the tabs */
+    padding-left: 20px; /* left padding to align with Diskuscuy title */
+    gap: 20px; /* increases space between each tab */
+    font-size: 16px; /* increased font size for better readability */
+    font-weight: bold; /* bold font style */
+    border-bottom: none; /* remove the border below tabs */
+    margin-top: 30px; /* Adjust to align with Diskuscuy */
+}
+
+.nav-link {
+    padding: 8px 20px; /* increased horizontal padding */
+    border-radius: 30px; /* more pronounced rounded corners */
+    background-color: transparent; /* clear background unless active or hovered */
+}
+.nav-tabs .nav-link {
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Make font bold */
+    color: #333; /* Dark color for better visibility */
+    padding: 10px 15px; /* Adequate padding around the text */
+    margin-right: 5px; /* Space between tabs */
+    border: none; /* Remove borders */
+    background-color: transparent; /* Clear background */
+    border-radius: 5px; /* Slightly rounded corners for aesthetic */
+}
+
+.nav-tabs .nav-link.active {
+    color: #333; /* White text for contrast */
+    border: none; /* No border */
+    text-decoration: underline;
+}
+
+
+
+.content-box {
+    border: 2px solid #ccc; /* light grey border */
+    border-radius: 15px; /* rounded corners */
+    padding: 20px; /* padding inside the box */
+    margin-top: 20px; /* space from the tabs */
+    text-align: center; /* center the text */
+    background-color: #f8f9fa; /* light background for the content box */
+}
+
+.content-box {
+    border: 1px solid #ccc; /* lighter and thinner grey border */
+    border-radius: 15px; /* rounded corners */
+    padding: 20px; /* padding inside the box */
+    margin-top: 20px; /* space from the tabs */
+    text-align: center; /* center the text */
+    background-color: #f8f9fa; /* light background for the content box */
+    width: 90%; /* adjust width to match description width */
+}
+
+.content-box p {
+    font-size: 16px; /* larger font size for the message */
+    color: #666; /* grey color for the text */
+    margin-bottom: 20px; /* space above the button */
+    text-align: center; /* center text */
+}
+
+.btn-action {
+    background-color: #007bff; /* blue background */
+    color: #ffffff; /* white text */
+    border: none; /* no border */
+    padding: 10px 20px; /* padding */
+    font-size: 14px; /* font size */
+    border-radius: 50px; /* rounded button */
+    text-decoration: none; /* remove underline from link */
+    display: inline-block; /* allow the use of padding and margin */
+    transition: background-color 0.3s; /* transition for hover effect */
+}
+
+.btn-action:hover {
+    background-color: #0056b3; /* darker blue on hover */
+}
